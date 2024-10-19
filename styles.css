@@ -173,7 +173,7 @@ section#hero{
 }
 /* experience */
 .experience{
-  height: 700px;
+  height: 350px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -193,9 +193,32 @@ section#hero{
   text-decoration: none;
 }
 
-.exp-info:hover{
+.exp-info:hover, .skills div:hover, .achivements div:hover{
   border-left: 7px solid orange;
 }
+
+/* Skills and Achivements */
+.skillachive{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+.skills div{
+  padding-left: 20px;
+  border-left: 3px solid orange;
+}
+
+.skills div ul li, .achivements div ul li{
+  margin: 5px;
+  padding: 5px;
+}
+
+/* achivements */
+.achivements div{
+  padding-left: 20px;
+  border-left: 3px solid orange;
+}
+
 
 /* projects */
 .projects{
